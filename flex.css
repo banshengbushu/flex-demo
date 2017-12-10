@@ -3,6 +3,11 @@ span {
     margin: 20px;
 }
 
+hr{
+    height: 20px;
+    background-color: orange;
+}
+
 .box{
     display: flex;
     margin: 20px;
@@ -63,4 +68,49 @@ span {
     flex-wrap: wrap;
     align-content: flex-start;
     height: 500px;
+}
+
+.order-1 {
+    order: -1;
+}
+.order-2 {
+    order: 1;
+}
+.order-3 {
+    order: 2;
+}
+.order-4 {
+    order: 3;
+}
+.order-5 {
+    order: 4;
+}
+.order-6 {
+    order: 5;
+}
+.order-7 {
+    order: 6;
+}
+
+.grow-3 {
+    flex-grow: 0;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.shrink {
+    flex-shrink: 0;
+}
+
+.box-10 .box-item {
+    flex: 0 1 auto;
+}
+
+.box-11 {
+    height: 300px;
+}
+.align-self {
+    align-self: flex-end;
 }
