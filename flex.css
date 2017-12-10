@@ -1,0 +1,66 @@
+span {
+    font-size: 35px;
+    margin: 20px;
+}
+
+.box{
+    display: flex;
+    margin: 20px;
+    border: 5px solid green;
+}
+
+.box-item{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: 10px;
+    text-align: center;
+    border: 5px solid orange;
+    color: green;
+    background-color: white;
+    font-size: 50px;
+}
+
+.bg-width {
+    width: 150px;
+}
+
+.lg-width {
+    width: 200px;
+}
+
+.bg-height {
+    height: 150px;
+}
+
+.lg-height {
+    height: 200px;
+}
+
+.bg-font {
+    font-size: 70px;
+}
+.lg-font {
+    font-size: 85px;
+}
+
+.baseline {
+    text-decoration: underline;
+}
+.box-1 {
+    flex-direction: row;
+}
+
+.box-4 {
+    justify-content: flex-start;
+}
+
+.box-5 {
+    align-items: flex-start;
+}
+
+.box-6 {
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 500px;
+}
